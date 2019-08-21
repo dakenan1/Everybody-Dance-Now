@@ -13,8 +13,8 @@ Also check out [densebody_pytorch](https://github.com/Lotayou/densebody_pytorch)
 ## Environment
 - Ubuntu     18.04 (But 16.04 should be fine too)
 - Python     3.6
-- CUDA       9.0.176
-- PyTorch    0.4.1post2
+- CUDA       10.0.13
+- PyTorch    1.1.0
 
 For other necessary packages, Use `pip install -r requirements` for a quick install.  
 1. The project requires tensorflow>1.9.0 since the pose estimator is implemented in Keras. If you are using an independent Keras package, change the corresponding import command in `./pose_estimator/compute_coordinates_for_video.py`. However, you won't be able to use tensorboard this way.
@@ -105,6 +105,7 @@ Should you find this implementation useful, please add the following citation in
   author={Chan, Caroline and Ginosar, Shiry and Zhou, Tinghui and Efros, Alexei A},
   journal={arXiv preprint arXiv:1808.07371},
   year={2018}
+  last revised={dakenan1}
 }
 ```
 
