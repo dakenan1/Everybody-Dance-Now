@@ -23,7 +23,8 @@ For other necessary packages, Use `pip install -r requirements` for a quick inst
 ## Demo
 
 <img width="75%" height="75%" src="result.png"/>
-you can see the ["result"](https://github.com/dakenan1/Everybody-Dance-Now/result.mp4)
+
+you can see the ["result-video"](https://github.com/dakenan1/Everybody-Dance-Now/result.mp4) .
 
 ## Dataset Preparation
 1. To reproduce our results, download the [Afrobeat workout Sequence](https://www.youtube.com/watch?v=kyKNPPQW3bM) from YouTube. ([clipconverter](https://www.clipconverter.cc/) is a great downloading tool.) 
